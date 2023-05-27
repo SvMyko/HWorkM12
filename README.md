@@ -12,3 +12,4 @@ Command list:
 - next: Show next page of the Adressbook 
 - show all: Show all the entries in the Adressbook 
 - search: search by the contents of the contact book (by several digits of a phone number or letters of a name, etc.)
+- exit: close programm and save result
