@@ -50,7 +50,7 @@ def main():
             except ValueError:
                 print(f"Name: {AddressBook.name}, Phone: {AddressBook.phone}")
         # Видаляємо непотрібний номер
-        elif user_input.startswith("delete"):
+        elif user_input.startswith("delete number"):
             try:
                 name = input("Enter name: ")
                 record = address_book.get_record(name)
