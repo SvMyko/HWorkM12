@@ -64,7 +64,7 @@ def main():
             except ValueError:
                 print(f"Name: {AddressBook.name}, Phone: {AddressBook.phone}")
         # Виводимо потрібний номер на екран
-        elif user_input.startswith("phone"):
+        elif user_input.startswith("show phone"):
             try:
                 name = input("Enter a contact name: ")
                 record = address_book.get_record(name)
