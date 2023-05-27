@@ -35,7 +35,7 @@ def main():
             except ValueError:
                 print("ERROR: Phone number should be in format +380XXXXXXXXX. Please enter a command again")
         # Змінюємо номер телефону
-        elif user_input.startswith("change"):
+        elif user_input.startswith("change number"):
             try:
                 name = input("Enter name: ")
                 record = address_book.get_record(name)
